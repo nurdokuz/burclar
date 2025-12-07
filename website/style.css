@@ -1,0 +1,154 @@
+
+body {
+    
+    background-color: #f0f8ff; 
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+   
+    color: #1e90ff; 
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+h4 {
+    
+    color: #4169e1; 
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #add8e6;
+    margin: 40px 0;
+}
+
+
+
+
+
+ul {
+    list-style: none; 
+    padding-left: 0;
+    text-align: left;
+    max-width: 600px; 
+    margin: 20px auto;
+}
+
+ul li {
+    background-color: #e0ffff;
+    border-left: 5px solid #1e90ff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+ul li h3 {
+    display: inline;
+    color: #4682b4; 
+    border-bottom: 2px solid #add8e6;
+    padding-bottom: 2px;
+}
+
+
+ul ul li {
+    background-color: transparent;
+    border-left: none;
+    font-weight: normal;
+    padding: 5px 0 5px 20px;
+    margin-left: 20px;
+}
+
+
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+th {
+    background-color: #4169e1;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+
+td {
+    padding: 10px 15px;
+    border: 1px solid #c0d9e9;
+    text-align: left;
+}
+
+
+tr:nth-child(even) {
+    background-color: #e6f7ff;
+}
+
+
+a {
+    text-decoration: none;
+    color: #4169e1; 
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1e90ff; 
+}
+
+.hava-grubu-baslik {
+    color: #003366; 
+    border-bottom: 3px solid #003366;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+
+.ates-grubu-baslik {
+    color: #008080; 
+    border-bottom: 3px solid #008080;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+
+.toprak-grubu-baslik {
+    color: #4682b4;
+    border-bottom: 3px solid #4682b4;
+    display: inline-block;
+    padding-bottom: 5px;
+}
